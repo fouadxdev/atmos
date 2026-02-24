@@ -1,6 +1,6 @@
 {
   "name": "@fouaden/atmos",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "a cli app that gives you the weather forecast",
   "main": "bin/atmos.js",
   "repository": {
