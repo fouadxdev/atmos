@@ -5,7 +5,7 @@ npm install atmos
 ```
 > A beautiful CLI tool for weather forecasts and current conditions.
 
-Atmos is a sleek command-line weather application that fetches real-time weather data from the Open-Meteo API. Get current conditions and 7-day forecasts directly from your terminal.
+**Atmos** is a sleek command-line weather application that fetches real-time weather data from the Open-Meteo API. Get current conditions and 7-day forecasts directly from your terminal.
 
 ##  Features
 
@@ -42,7 +42,7 @@ atmos today -l "Toronto"
 atmos forecast -l "London"
 ```
 
-## 🎨 Example Output
+##  Example Output
 
 ```
 Current conditions in London: 15°C
@@ -58,51 +58,20 @@ Current conditions in London: 15°C
  Sun, Dec 22       12°C     5°C
 ```
 
-## 🧪 Testing
-
-Run the test suite:
-
-```
-bash
-npm test
-```
-
-### Test Coverage
-
-| Test File          | Tests | Status     |
-| ------------------ | ----- | ---------- |
-| `cli.test.js`      | 2     | ✅ Passing |
-| `utils.test.js`    | 2     | ✅ Passing |
-| `commands.test.js` | 7     | ✅ Passing |
-
-**Total: 11 tests passing**
-
-## 🛠️ Tech Stack
-
-- **Node.js** - Runtime environment
-- **Vitest** - Testing framework
-- **Axios** - HTTP client for API requests
-- **Chalk** - Terminal string styling
-- **Ora** - Terminal spinner
-- **Arg** - Command-line argument parsing
-
-## 📦 Dependencies
+##  Dependencies
 
 - `arg` - Command-line argument parsing
 - `axios` - HTTP client for API requests
 - `chalk` - Terminal string styling
 - `ora` - Terminal spinner
 
-## 🌐 API
+##  API
 
 Atmos uses the [Open-Meteo API](https://open-meteo.com/), a free, open-source weather API that requires no API key.
 
-## 📝 License
+##  License
 
-This project is licensed under the ISC License.
+This project is licensed under the MIT License.
 
 ---
-
-<div align="center">
-  <p>Built with ❤️ using Node.js</p>
-</div>
+[fouadxdev](https://github.com/fouadxdev).

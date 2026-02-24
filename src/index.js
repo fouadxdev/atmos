@@ -2,7 +2,6 @@ import arg from "arg";
 import chalk from "chalk";
 
 export async function main() {
-  
   try {
     const args = arg({
       "--help": Boolean,
@@ -18,7 +17,6 @@ export async function main() {
 
     let command = args._[0] || "help";
 
-    if (args["--location"]) command = "location";
     if (args["--version"]) command = "version";
     if (args["--help"]) command = "help";
 
