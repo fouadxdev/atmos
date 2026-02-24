@@ -1,48 +1,48 @@
-#  Atmos
+# atmos-cli
 
-``` 
-npm install atmos
 ```
+npm install atmos-cli
+```
+
 > A beautiful CLI tool for weather forecasts and current conditions.
 
-**Atmos** is a sleek command-line weather application that fetches real-time weather data from the Open-Meteo API. Get current conditions and 7-day forecasts directly from your terminal.
+**atmos-cli** is a sleek command-line weather application that fetches real-time weather data from the Open-Meteo API. Get current conditions and 7-day forecasts directly from your terminal.
 
-##  Features
+## Features
 
--  **Current Weather** - Get real-time temperature and conditions
--  **7-Day Forecast** - Plan ahead with detailed forecasts
--  **Easy to Use** - Simple, intuitive command-line interface
--  **Fast** - Lightweight with minimal dependencies
--  **Open Source** - Free and open API (Open-Meteo)
+- **Current Weather** - Get real-time temperature and conditions
+- **7-Day Forecast** - Plan ahead with detailed forecasts
+- **Easy to Use** - Simple, intuitive command-line interface
+- **Fast** - Lightweight with minimal dependencies
+- **Open Source** - Free and open API (Open-Meteo)
 
-
-##  Usage
+## Usage
 
 ### Get Help
 
 ```sh
-atmos --help 
+atmos-cli --help
 ```
 
 ### Check Version
 
-``` sh
-atmos --version
+```sh
+atmos-cli --version
 ```
 
 ### Current Weather
 
-``` sh
-atmos today -l "Toronto"
+```sh
+atmos-cli today -l "Toronto"
 ```
 
 ### 7-Day Forecast
 
-``` sh
-atmos forecast -l "London"
+```sh
+atmos-cli forecast -l "London"
 ```
 
-##  Example Output
+## Example Output
 
 ```
 Current conditions in London: 15°C
@@ -58,20 +58,21 @@ Current conditions in London: 15°C
  Sun, Dec 22       12°C     5°C
 ```
 
-##  Dependencies
+## Dependencies
 
 - `arg` - Command-line argument parsing
 - `axios` - HTTP client for API requests
 - `chalk` - Terminal string styling
 - `ora` - Terminal spinner
 
-##  API
+## API
 
-Atmos uses the [Open-Meteo API](https://open-meteo.com/), a free, open-source weather API that requires no API key.
+atmos-cli uses the [Open-Meteo API](https://open-meteo.com/), a free, open-source weather API that requires no API key.
 
-##  License
+## License
 
 This project is licensed under the MIT License.
 
 ---
+
 [fouadxdev](https://github.com/fouadxdev).

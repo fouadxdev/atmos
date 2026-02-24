@@ -1,16 +1,16 @@
 {
   "name": "atmos-cli",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "a cli app that gives you the weather forecast",
-  "main": "bin/atmos.js",
+  "main": "bin/atmos-cli.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fouadxdev/atmos.git"
+    "url": "git+https://github.com/fouadxdev/atmos-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/fouadxdev/atmos/issues"
+    "url": "https://github.com/fouadxdev/atmos-cli/issues"
   },
-  "homepage": "https://github.com/fouadxdev/atmos?tab=readme-ov-file#atmos",
+  "homepage": "https://github.com/fouadxdev/atmos-cli?tab=readme-ov-file#atmos-cli",
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest"
@@ -18,7 +18,7 @@
   "keywords": [],
   "author": "",
   "bin": {
-    "atmos": "bin/atmos.js"
+    "atmos-cli": "bin/atmos-cli.js"
   },
   "license": "MIT",
   "type": "module",
