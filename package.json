@@ -1,8 +1,17 @@
 {
-  "name": "atmos",
-  "version": "2.0.0",
-  "description": "A CLI app that gives you the weather forecast",
-  "main": "index.js",
+  "name": "@fouaden/atmos",
+  "version": "1.0.0",
+  "description": "a cli app that gives you the weather forecast",
+  "main": "bin/atmos.js",
+  "repository": {
+    
+    "type": "git",
+    "url": "https://github.com/fouadxdev/atmos"
+  },
+  "bugs": {
+    "url": "https://github.com/fouadxdev/atmos/issues"
+  },
+  "homepage": "https://github.com/fouadxdev/atmos?tab=readme-ov-file#atmos",
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest"

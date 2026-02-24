@@ -30,7 +30,7 @@ atmos --help
 atmos --version
 ```
 
-### Today's Weather
+### Current Weather
 
 ``` sh
 atmos today -l "Toronto"
