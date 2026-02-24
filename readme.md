@@ -20,25 +20,25 @@ npm install atmos
 
 ### Get Help
 
-``` bash
+```sh
 atmos --help 
 ```
 
 ### Check Version
 
-``` bash
+``` sh
 atmos --version
 ```
 
 ### Today's Weather
 
-``` bash
+``` sh
 atmos today -l "Toronto"
 ```
 
 ### 7-Day Forecast
 
-``` bash
+``` sh
 atmos forecast -l "London"
 ```
 
