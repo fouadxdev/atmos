@@ -4,9 +4,8 @@
   "description": "a cli app that gives you the weather forecast",
   "main": "bin/atmos.js",
   "repository": {
-    
     "type": "git",
-    "url": "https://github.com/fouadxdev/atmos"
+    "url": "git+https://github.com/fouadxdev/atmos.git"
   },
   "bugs": {
     "url": "https://github.com/fouadxdev/atmos/issues"
