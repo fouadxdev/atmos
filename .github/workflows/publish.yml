@@ -1,16 +1,14 @@
 name: Publish to NPM
 on:
   push:
-    branches:
-      - main
-    paths:
-      - "src/**"
-      - "package.json"
-      - "bin/**"
+    branches: [main]
 
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -19,7 +17,5 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       - run: npm install
-      # We use --access public because it's a new package name
-      - run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      # Notice: No 'env' block here! NPM recognizes GitHub automatically.
+      - run: npm publish --access public --provenance
